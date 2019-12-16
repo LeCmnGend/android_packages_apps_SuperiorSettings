@@ -477,6 +477,10 @@
     <string name="pulse_ambient_light_repeat_count_title">Edge Light Repeat count</string>
     <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
 
+    <!-- Fingerprint unlock keystore -->
+   <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+   <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+
     <!-- QS advanced settings -->
     <string name="qs_column_rows_settings_title">QS panel settings</string>
     <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
@@ -676,5 +680,10 @@
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Statusbar Brightness Control</string>
     <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across statusbar</string>
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">FOD icon picker</string>
+    <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
 
 </resources>

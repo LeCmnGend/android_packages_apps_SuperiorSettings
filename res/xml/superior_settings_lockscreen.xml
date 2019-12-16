@@ -52,6 +52,19 @@
         android:defaultValue="true" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="fp_unlock_keystore"
+        android:title="@string/fp_unlock_keystore_title"
+        android:summary="@string/fp_unlock_keystore_summary"
+        android:defaultValue="false" />
+
+    <!-- FOD icon picker -->
+    <Preference
+        android:key="fod_icon_picker_category"
+        android:title="@string/fod_icon_picker_title"
+        android:summary="@string/fod_icon_picker_summary"
+        android:fragment="com.superior.settings.fragments.FODIconPickerFragment" />
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="fingerprint_error_vib"
         settings:iconSpaceReserved="false"
         android:title="@string/fprint_error_vib_title"
