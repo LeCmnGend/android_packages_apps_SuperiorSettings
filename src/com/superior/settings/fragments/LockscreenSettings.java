@@ -18,15 +18,21 @@ package com.superior.settings.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.UserHandle;
+
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+
 import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,16 +43,26 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
 
+import com.superior.settings.preferences.Utils;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class LockscreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private boolean mHasFod;
+
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
 
     static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
     static final int MODE_TIME = 2;
     static final int MODE_MIXED_SUNSET = 3;
     static final int MODE_MIXED_SUNRISE = 4;
+
+    private Preference mFODIconPicker;
 
     Preference mAODPref;
 
@@ -59,6 +75,12 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
 
         mAODPref = findPreference(AOD_SCHEDULE_KEY);
         updateAlwaysOnSummary();
+
+        mFODIconPicker = (Preference) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPicker != null
+                && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
+            prefScreen.removePreference(mFODIconPicker);
+        }
     }
 
     @Override
