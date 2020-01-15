@@ -54,7 +54,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     private boolean mHasFod;
 
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
-    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
 
     static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
@@ -62,7 +62,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     static final int MODE_MIXED_SUNSET = 3;
     static final int MODE_MIXED_SUNRISE = 4;
 
-    private Preference mFODIconPicker;
+    private PreferenceCategory mFODIconPickerCategory;
 
     Preference mAODPref;
 
@@ -76,10 +76,10 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         mAODPref = findPreference(AOD_SCHEDULE_KEY);
         updateAlwaysOnSummary();
 
-        mFODIconPicker = (Preference) findPreference(FOD_ICON_PICKER_CATEGORY);
-        if (mFODIconPicker != null
+        mFODIconPickerCategory = (PreferenceCategory) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPickerCategory != null
                 && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
-            prefScreen.removePreference(mFODIconPicker);
+            prefScreen.removePreference(mFODIconPickerCategory);
         }
     }
 
