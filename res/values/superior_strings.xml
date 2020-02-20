@@ -494,10 +494,14 @@
     <string name="lockscreen_charging_animation_stack">Stack</string>
     <string name="lockscreen_charging_animation_wavy">Wavy</string>
 
-   <!-- QS Header data uasge -->
-   <string name="qs_datausage_title">Data usage in QS Header</string>
-   <string name="qs_datausage_disabled">Disabled</string>
-   <string name="qs_datausage_daily">Daily usage</string>
-   <string name="qs_datausage_monthly">Monthly usage</string>
+    <!-- QS Header data uasge -->
+    <string name="qs_datausage_title">Data usage in QS Header</string>
+    <string name="qs_datausage_disabled">Disabled</string>
+    <string name="qs_datausage_daily">Daily usage</string>
+    <string name="qs_datausage_monthly">Monthly usage</string>
+
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
+    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
 
 </resources>
