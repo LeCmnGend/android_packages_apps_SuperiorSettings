@@ -40,6 +40,7 @@ import android.view.ViewGroup;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.superior.fod.FodUtils;
 
 import com.android.settings.R;
 
@@ -77,8 +78,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         updateAlwaysOnSummary();
 
         mFODIconPickerCategory = (PreferenceCategory) findPreference(FOD_ICON_PICKER_CATEGORY);
-        if (mFODIconPickerCategory != null
-                && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
+        if (mFODIconPickerCategory != null && !FodUtils.hasFodSupport(getContext())) {
             prefScreen.removePreference(mFODIconPickerCategory);
         }
     }
