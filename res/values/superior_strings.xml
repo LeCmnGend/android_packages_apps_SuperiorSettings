@@ -682,14 +682,13 @@
     <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across statusbar</string>
 
     <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">FOD icon picker</string>
+    <string name="fod_icon_picker_category_title">FOD settings</string>
+    <string name="fod_icon_picker_title">Fingerprint icon</string>
     <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
     <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
 
     <!-- FOD pressed state behavior -->
-    <string name="fod_pressed_state_title">FOD pressed state behavior</string>
-    <string name="fod_pressed_state_summary">Choose the appropriate pressed state behavior for your device</string>
-    <string name="fod_pressed_state_footer">Icons/colors may vary depending on which device you are using.</string>
+    <string name="fod_pressed_state_title">Fingerprint pressed effect</string>
     <string name="fod_pressed_state_miui_cyan">MIUI Cyan</string>
     <string name="fod_pressed_state_miui_white">MIUI White</string>
     <string name="fod_pressed_state_vivo_cyan">Vivo Cyan</string>
@@ -697,5 +696,29 @@
     <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo Cyan (Shadow alt)</string>
     <string name="fod_pressed_state_vivo_green">Vivo Green</string>
     <string name="fod_pressed_state_vivo_yellow_shadow">Vivo Yellow (Shadow)</string>
+
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Fingerprint animation</string>
+    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="fod_recog_animation_effect_title">Select fingerprint animation effect</string>
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation_miui_aod">AOD</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Ripple</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_bluefirework">Blue Fireworks</string>
+    <string name="fod_recog_animation_coloros7_1">ColorOS7 1</string>
+    <string name="fod_recog_animation_coloros7_2">ColorOS7 2</string>
 
 </resources>
