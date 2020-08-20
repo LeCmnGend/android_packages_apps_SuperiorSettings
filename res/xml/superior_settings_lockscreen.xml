@@ -42,7 +42,7 @@
         android:title="@string/lockscreen_charging_animation_title"
         android:entries="@array/lockscreen_charging_animation_entries"
         android:entryValues="@array/lockscreen_charging_animation_values"
-        android:defaultValue="1" />
+            android:defaultValue="@*android:integer/config_pressed_fod_icon" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="fingerprint_success_vib"
