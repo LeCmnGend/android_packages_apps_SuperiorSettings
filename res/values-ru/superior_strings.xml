@@ -445,6 +445,7 @@
     <string name="fod_icon_picker_title">Выбор иконки FOD</string>
     <string name="fod_icon_picker_summary">Выберите вашу любимую иконку отпечатка пальца</string>
     <string name="fod_icon_picker_footer">Чтобы добавить свою иконку, выберите иконку в верхнем левом углу и с помощью приложения OnePlus 6T FP Customizer добавьте нужную иконку.</string>
+
     <!-- FOD animations -->
     <string name="fod_recog_animation">Анимация при распознавании FOD</string>
     <string name="fod_recog_animation_summary">Показывать анимацию при распознавании отпечатка</string>
