@@ -545,7 +545,7 @@
     <string name="flashlight_on_call_silent">Chỉ khi chuông im lặng</string>
     <string name="flashlight_on_call_always">Luôn luôn</string>
     <!-- SuperiorOS logo -->
-    <string name="superior_logo_title">SuperiorOS logo</string>
+    <string name="superior_logo_title">SuperiorOS Logo</string>
     <string name="superior_logo_summary">Thêm biểu trưng của bạn trên thanh trạng thái</string>
     <!-- Gaming mode -->
     <string name="gaming_title">Chế độ Chơi game</string>
@@ -595,4 +595,9 @@
     <string name="power_profile_ext">Extreme</string>
     <string name="powersave_summary">Các tùy chọn để kéo dài tuổi thọ pin của bạn</string>
     <!-- Notification Media Options -->
+	
+    <!-- FOD Tweaks -->
+    <string name="fod_tweaks_title">FOD Tweaks</string>
+    <string name="fod_tweaks_summary">FOD related customization</string>
+
 </resources>

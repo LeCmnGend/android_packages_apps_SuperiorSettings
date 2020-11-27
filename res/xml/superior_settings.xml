@@ -73,6 +73,12 @@
             android:fragment="com.superior.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
+        <Preference
+            android:fragment="com.superior.settings.fragments.FodTweaks"
+            android:icon="@drawable/ic_fod"
+            android:key="fod_tweaks"
+            android:title="@string/fod_tweaks_title" />
+
         <!-- Notifications -->
         <Preference
             android:key="notifications_category"

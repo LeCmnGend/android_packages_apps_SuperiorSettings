@@ -472,6 +472,11 @@
     <string name="fod_recog_animation_rog_fusion">Слияние</string>
     <string name="fod_recog_animation_rog_pulsar">Пульсирующий</string>
     <string name="fod_recog_animation_rog_supernova">Сверхновая</string>
+
+    <!-- FOD Tweaks -->
+    <string name="fod_tweaks_title">Настройка FOD</string>
+    <string name="fod_tweaks_summary">Дополнительные настройки подэкранного сканера отпечатка пальцев</string>
+
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Отключение экрана отпечатком пальца</string>
     <string name="fod_gesture_summary">Разрешает разблокировать устройство без включения экрана</string>
