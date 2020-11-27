@@ -1,5 +1,5 @@
 /*
- * Copyright © 2018-2020 Superior OS
+ * Copyright © 2018-2020 Superior OS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,22 +19,16 @@ package com.superior.settings.fragments;
 import android.os.Bundle;
 import android.content.Context;
 import com.android.settings.R;
-
 import com.android.settings.SettingsPreferenceFragment;
-
 import com.android.internal.logging.nano.MetricsProto;
-
 public class FodTweaks extends SettingsPreferenceFragment {
-
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.fod_tweaks);
     }
-
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SUPERIOR;
     }
-
 }

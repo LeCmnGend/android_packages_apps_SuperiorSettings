@@ -441,10 +441,16 @@
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Phương tiện trên màn hình khóa</string>
     <string name="lockscreen_media_art_summary">Hiển thị ảnh bìa phương tiện khi có sẵn</string>
+
+    <!-- FOD Tweaks -->
+    <string name="fod_tweaks_title">FOD Tweaks</string>
+    <string name="fod_tweaks_summary">FOD related customization</string>
+
     <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">Công cụ chọn biểu tượng FOD</string>
-    <string name="fod_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
-    <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng ứng dụng OnePlus 6T tuỳ biến FP để chọn biểu tượng bạn mong muốn.</string>
+    <string name="fod_icon_picker_title">Chọn Biểu tượng</string>
+    <string name="fod_icon_picker_summary">Lựa chọn biểu tượng FOD yêu thích của bạn</string>
+    <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng OnePlus 6T FP Customizer để chọn biểu tượng bạn muốn</string>
+
     <!-- FOD animations -->
     <string name="fod_recog_animation">Hiệu ứng FOD khi xác nhận vân tay</string>
     <string name="fod_recog_animation_summary">Hiện hiệu ứng khi đang đọc vân tay của bạn</string>
@@ -596,8 +602,4 @@
     <string name="powersave_summary">Các tùy chọn để kéo dài tuổi thọ pin của bạn</string>
     <!-- Notification Media Options -->
 	
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">FOD Tweaks</string>
-    <string name="fod_tweaks_summary">FOD related customization</string>
-
 </resources>
