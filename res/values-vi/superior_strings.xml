@@ -481,7 +481,7 @@
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
 
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Tắt màn hình bằng vân tay</string>
+    <string name="fod_gesture_title">Vân tay hoạt động khi màn hình tắt</string>
     <string name="fod_gesture_summary">Cho phép mở khóa thiết bị mà không cần phải đánh thức màn hình trước</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">Tắt ánh sáng chạm khi hiển thị FOD</string>
