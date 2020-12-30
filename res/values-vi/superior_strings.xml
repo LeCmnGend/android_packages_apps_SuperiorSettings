@@ -603,5 +603,9 @@
     <string name="power_profile_ext">Extreme</string>
     <string name="powersave_summary">Các tùy chọn để kéo dài tuổi thọ pin của bạn</string>
     <!-- Notification Media Options -->
-	
+
+    <!-- Statusbar brightness control -->
+    <string name="status_bar_brightness_control_title">Statusbar Brightness Control</string>
+    <string name="status_bar_brightness_control_summary">Điều chỉnh độ sáng bằng cách trượt trên thanh trạng thái</string>
+
 </resources>

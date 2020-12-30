@@ -604,4 +604,9 @@
     <string name="artwork_media_background_title">Фон медиа-обложки</string>
     <string name="artwork_media_background_summary">Установить медиа-обложку в качестве фона уведомления</string>
     <string name="artwork_media_fade_level_title">Уровень тусклости обложки</string>
+
+    <!-- Statusbar brightness control -->
+    <string name="status_bar_brightness_control_title">Строки состояния регулировка яркости</string>
+    <string name="status_bar_brightness_control_summary">Отрегулируйте яркость, перемещаясь по строке состояния</string>
+
 </resources>
