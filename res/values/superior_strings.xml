@@ -672,4 +672,9 @@
     <string name="hide_apps_from_recents_title">Hide apps from recents</string>
     <string name="hide_apps_from_recents_summary">Hide apps from appearing in recents</string>
     <string name="hide_from_recents_add_app">Add app</string>
+
+    <!-- Statusbar brightness control -->
+    <string name="status_bar_brightness_control_title">Statusbar Brightness Control</string>
+    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across statusbar</string>
+
 </resources>
