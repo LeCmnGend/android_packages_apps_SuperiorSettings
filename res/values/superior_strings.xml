@@ -526,10 +526,6 @@
     <string name="qs_datausage_daily">Daily usage</string>
     <string name="qs_datausage_monthly">Monthly usage</string>
 
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
-    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
-
    <!-- Notification headers -->
    <string name="notification_headers_title">Notification Headers</string>
    <string name="notification_headers_summary">Show headers in the notification shade</string>
@@ -554,4 +550,11 @@
    <string name="hide_lockicon_title">Hide lock icon</string>
    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
+    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
+    <string name="qs_tint_off">Default</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
 </resources>
