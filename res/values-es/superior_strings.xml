@@ -382,4 +382,23 @@
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Portada de álbum en pantalla de bloqueo</string>
     <string name="lockscreen_media_art_summary">Mostrar carátula de medios al reproducir música</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Animación de carga</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Batería</string>
+    <string name="lockscreen_charging_animation_drop">Tirar</string>
+    <!-- QS Header data uasge -->
+    <!-- QS Footer Text -->
+    <!-- Notification headers -->
+    <!-- Quick Settings brightness slider -->
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Data disabled icon -->
+    <!-- Roaming indicator icon -->
+    <!-- AOD Schedule -->
+    <!-- Lock icon -->
+    <!-- QS tint -->
+    <!-- Volume panel switch -->
+    <!-- Blink flashlight for incoming calls -->
+    <!-- SuperiorOS logo -->
 </resources>
