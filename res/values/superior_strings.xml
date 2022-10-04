@@ -562,10 +562,6 @@
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 
-     <!-- Nightlight Fod -->
-    <string name="fod_night_light_title">Disable night light when showing FOD</string>
-    <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
-
    <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Charging animation</string>
     <string name="lockscreen_charging_animation_flash">Flash</string>
@@ -713,4 +709,5 @@
     <string name="hide_apps_from_recents_title">Hide apps from recents</string>
     <string name="hide_apps_from_recents_summary">Hide apps from appearing in recents</string>
     <string name="hide_from_recents_add_app">Add app</string>
+
 </resources>
