@@ -95,12 +95,11 @@
             android:entryValues="@array/fod_pressed_color_values"
             android:defaultValue="@*android:integer/config_fod_pressed_color" />
 
-        <!-- FOD Nightlight -->
         <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="fod_night_light"
-            android:title="@string/fod_night_light_title"
-            android:summary="@string/fod_night_light_summary"
-            android:defaultValue="@*android:bool/disable_fod_night_light"  />
+            android:key="fod_on_doze"
+            android:title="@string/fod_on_doze_title"
+            android:summary="@string/fod_on_doze_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 
