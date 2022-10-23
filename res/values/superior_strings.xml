@@ -746,4 +746,8 @@
     <string name="fod_pressed_color_yellow">Yellow</string>
     <string name="fod_pressed_color_light_yellow">Light Yellow</string>
 
+    <!-- FOD on doze -->
+    <string name="fod_on_doze_title">FOD on doze</string>
+    <string name="fod_on_doze_summary">Show fingerprint on display during ambient display and AoD. This only hides the icon and will not disable functionality.</string>
+
 </resources>
