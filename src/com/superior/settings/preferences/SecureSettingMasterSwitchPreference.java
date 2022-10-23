@@ -19,25 +19,23 @@ package com.superior.settings.preferences;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.android.settings.R;
+import com.superior.settings.preferences.SecureSettingsStore;
 
-import com.superior.settings.preferences.SystemSettingsStore;
+public class SecureSettingMasterSwitchPreference extends MasterSwitchPreference {
 
-public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
-
-    public SystemSettingMasterSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
+    public SecureSettingMasterSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingMasterSwitchPreference(Context context, AttributeSet attrs) {
+    public SecureSettingMasterSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingMasterSwitchPreference(Context context) {
+    public SecureSettingMasterSwitchPreference(Context context) {
         super(context);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
 }

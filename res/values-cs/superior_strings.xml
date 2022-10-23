@@ -461,18 +461,20 @@
     <!-- Notification headers -->
     <string name="notification_headers_title">Záhlaví oznámení</string>
     <string name="notification_headers_summary">Zobrazit záhlaví v liště oznámení</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Tlačítko adaptivního jasu</string>
+    <string name="brightness_icon_summary">Zobrazovat tlačítko adaptivního jasu</string>
+
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Tlačítka ovládání jasu</string>
+    <string name="brightness_side_buttons_summary">Zobrazit tlačítka pro zvyšování, nebo snižování jasu</string>
+
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Posuvník jasu</string>
     <string name="qs_brightness_slider_title">Zobrazit posuvník jasu</string>
     <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu Rychlého nastavení</string>
-    <string name="qs_brightness_position_bottom_title">Zobrazit posuvník jasu v v dolní části</string>
-    <string name="qs_brightness_position_bottom_summary">Zobrazit posuvník jasu v dolní části panelu Rychlého nastavení</string>
-    <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Tlačítko adaptivního jasu</string>
-    <string name="brightness_icon_summary">Zobrazovat tlačítko adaptivního jasu</string>
-    <!-- Quick Settings brightness side buttons -->
-    <string name="brightness_side_buttons_title">Tlačítka ovládání jasu</string>
-    <string name="brightness_side_buttons_summary">Zobrazit tlačítka pro zvyšování, nebo snižování jasu</string>
+
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
     <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>

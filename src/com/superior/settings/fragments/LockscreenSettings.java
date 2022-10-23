@@ -37,11 +37,6 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
 
-import com.superior.settings.utils.Utils;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class LockscreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
