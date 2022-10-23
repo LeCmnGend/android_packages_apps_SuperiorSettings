@@ -57,13 +57,6 @@
         android:summary="@string/fp_unlock_keystore_summary"
         android:defaultValue="false" />
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="fod_gesture"
-        android:title="@string/fod_gesture_title"
-        android:summary="@string/fod_gesture_summary"
-        android:defaultValue="false"
-        settings:controller="com.android.settings.security.screenlock.ScreenOffFodPreferenceController" />
-
     <!-- FOD customization options -->
     <PreferenceCategory
         android:key="fod_icon_picker"
