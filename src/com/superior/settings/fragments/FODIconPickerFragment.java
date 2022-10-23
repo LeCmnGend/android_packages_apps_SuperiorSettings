@@ -31,6 +31,8 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class FODIconPickerFragment extends SettingsPreferenceFragment {
 
+    private static final String FOD_ICON_FOOTER = "fod_icon_footer";
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +40,8 @@ public class FODIconPickerFragment extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.superior_settings_fod_picker);
 
         getActivity().getActionBar().setTitle(R.string.fod_icon_picker_title);
+
+        findPreference(FOD_ICON_FOOTER).setTitle(R.string.fod_icon_picker_footer);
     }
 
     @Override

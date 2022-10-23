@@ -19,6 +19,8 @@ package com.superior.settings.preferences;
 import android.content.Context;
 import android.util.AttributeSet;
 
+import com.android.settings.R;
+
 import com.superior.settings.preferences.SystemSettingsStore;
 
 public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
