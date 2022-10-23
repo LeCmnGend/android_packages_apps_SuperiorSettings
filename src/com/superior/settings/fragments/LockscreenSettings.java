@@ -40,6 +40,7 @@ import android.view.ViewGroup;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.superior.SuperiorUtils;
 import com.android.internal.util.superior.fod.FodUtils;
 
 import com.android.settings.R;
@@ -55,6 +56,8 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     private boolean mHasFod;
 
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
+    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String FOD_ANIMATION_CATEGORY = "fod_animations";
     private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
 
     static final int MODE_DISABLED = 0;
@@ -80,6 +83,14 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         mFODIconPickerCategory = (PreferenceCategory) findPreference(FOD_ICON_PICKER_CATEGORY);
         if (mFODIconPickerCategory != null && !FodUtils.hasFodSupport(getContext())) {
             prefScreen.removePreference(mFODIconPickerCategory);
+        }
+
+        final PreferenceCategory fodCat = (PreferenceCategory) prefScreen
+                .findPreference(FOD_ANIMATION_CATEGORY);
+        final boolean isFodAnimationResources = EvolutionUtils.isPackageInstalled(getContext(),
+                      getResources().getString(com.android.internal.R.string.config_fodAnimationPackage));
+        if (!isFodAnimationResources) {
+            prefScreen.removePreference(fodCat);
         }
     }
 
