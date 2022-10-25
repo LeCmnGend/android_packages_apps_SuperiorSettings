@@ -87,7 +87,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
 
         final PreferenceCategory fodCat = (PreferenceCategory) prefScreen
                 .findPreference(FOD_ANIMATION_CATEGORY);
-        final boolean isFodAnimationResources = EvolutionUtils.isPackageInstalled(getContext(),
+        final boolean isFodAnimationResources = SuperiorUtils.isPackageInstalled(getContext(),
                       getResources().getString(com.android.internal.R.string.config_fodAnimationPackage));
         if (!isFodAnimationResources) {
             prefScreen.removePreference(fodCat);
