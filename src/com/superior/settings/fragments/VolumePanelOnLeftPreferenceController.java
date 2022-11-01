@@ -19,7 +19,7 @@ package src.com.superior.settings.fragments;
 
 import android.content.Context;
 
-import com.superior.settings.preferences.Utils;
+import com.superior.settings.utils.Utils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
