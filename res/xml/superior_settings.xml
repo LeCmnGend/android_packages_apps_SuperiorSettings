@@ -59,6 +59,14 @@
             android:fragment="com.superior.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_spgestures"/>
 
+        <Preference
+            android:fragment="com.superior.settings.fragments.FodTweaks"
+            android:icon="@drawable/ic_fod"
+            android:key="fod_tweaks"
+            android:summary="@string/fod_tweaks_summary"
+            android:title="@string/fod_tweaks_title"
+            settings:searchable="false" />
+
         <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"

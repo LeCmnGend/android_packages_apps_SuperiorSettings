@@ -226,6 +226,9 @@
     <string name="double_tap_gestures_category_title">Cử chỉ chạm hai lần</string>
     <string name="double_tap_sleep_gesture_title">Nhấn đúp trên thanh trạng thái để tắt màn hình</string>
     <string name="double_tap_sleep_lockscreen_title">Chạm 2 lần tắt màn hình trên màn hình khóa</string>
+    <string name="doze_double_tap_title">Double tap to doze</string>
+    <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
+
     <!-- Battery light -->
     <string name="battery_light_settings">Đèn báo sạc pin</string>
     <string name="battery_light_enable">Kích hoạt</string>
@@ -547,5 +550,48 @@
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Statusbar Brightness Control</string>
     <string name="status_bar_brightness_control_summary">Điều chỉnh độ sáng bằng cách trượt trên thanh trạng thái</string>
+
+    <!-- FOD Tweaks -->
+    <string name="fod_tweaks_title">FOD Tweaks</string>
+    <string name="fod_tweaks_summary">Tuỳ biến cài đặt vân tay dưới màn hình</string>
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Chọn biểu tượng</string>
+    <string name="fod_icon_picker_summary">Chọn biểu tượng yêu thích của bạn</string>
+    <string name="fod_icon_picker_footer">Để chèn biểu tượng mặc định, chọn biểu tượng góc trái trên và chọn OnePlus 6T FP Customizer để tiến hành tuỳ biến.</string>
+
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Hiệu ứng vân tay</string>
+    <string name="fod_recog_animation_summary">Hiển thị hiệu ứng mở khoá bằng vân tay</string>
+    <string name="fod_recog_animation_effect_title">Chọn hiệu ứng</string>
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Ripple</string>
+    <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
+
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Vân tay khi màn hình tắt</string>
+    <string name="fod_gesture_summary">Cho phép mở khoá bằng vân tay khi màn hình tắt</string>
+
 
 </resources>
