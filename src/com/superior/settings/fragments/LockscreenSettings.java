@@ -45,7 +45,7 @@ import com.android.internal.util.superior.fod.FodUtils;
 
 import com.android.settings.R;
 
-import com.superior.settings.preferences.Utils;
+import com.superior.settings.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
