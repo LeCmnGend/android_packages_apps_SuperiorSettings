@@ -594,4 +594,7 @@
     <string name="fod_gesture_summary">Cho phép mở khoá bằng vân tay khi màn hình tắt</string>
 
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Thông tin Radio </string>
+
 </resources>
